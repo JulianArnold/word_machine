@@ -1,0 +1,45 @@
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-06 13:41:35 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 13723ms (Views: 13660.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-11-06 13:41:49 +0000
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-11-06 13:41:49 +0000
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for 127.0.0.1 at 2017-11-06 13:41:49 +0000
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-11-06 13:41:49 +0000
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-11-06 13:41:49 +0000
+
+
+Started GET "/assets/application.self-8f81f789606958f881f9d343cb1ad6e7d7db2da3b53064b842cfdbb291dcc37d.js?body=1" for 127.0.0.1 at 2017-11-06 13:41:49 +0000
+
+
+Started GET "/assets/application.self-a822855dc89e4fe37bb28defabc164bb9befb4deb3c67d71fc1b2bfab356bb5a.css?body=1" for 127.0.0.1 at 2017-11-06 13:41:49 +0000
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2017-11-06 13:41:52 +0000
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 195ms (Views: 193.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2017-11-06 13:41:52 +0000
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 110ms (Views: 109.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2017-11-06 13:41:53 +0000
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 99ms (Views: 97.7ms | ActiveRecord: 0.0ms)
