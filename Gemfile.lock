@@ -48,7 +48,7 @@ GEM
       activesupport (>= 3.2, < 5.2)
       request_store (~> 1.0)
       scrypt (>= 1.2, < 4.0)
-    autoprefixer-rails (7.1.6)
+    autoprefixer-rails (7.2.2)
       execjs
     bootstrap-datepicker-rails (1.7.1.1)
       railties (>= 3.0)
@@ -259,7 +259,7 @@ GEM
     turbolinks-source (5.0.3)
     tzinfo (1.2.4)
       thread_safe (~> 0.1)
-    uglifier (3.2.0)
+    uglifier (4.0.2)
       execjs (>= 0.3.0, < 3)
     unf (0.1.4)
       unf_ext
