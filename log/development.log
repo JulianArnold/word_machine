@@ -683,3 +683,165 @@ Started GET "/static_pages/about" for 127.0.0.1 at 2017-12-11 22:22:45 +0000
 Processing by StaticPagesController#about as HTML
   Rendered static_pages/about.html.erb within layouts/application (0.2ms)
 Completed 200 OK in 67ms (Views: 65.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-31 13:52:11 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 9036ms (Views: 9004.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a822855dc89e4fe37bb28defabc164bb9befb4deb3c67d71fc1b2bfab356bb5a.css?body=1" for 127.0.0.1 at 2018-01-31 13:52:21 +0000
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-01-31 13:52:21 +0000
+
+
+Started GET "/assets/application.self-8f81f789606958f881f9d343cb1ad6e7d7db2da3b53064b842cfdbb291dcc37d.js?body=1" for 127.0.0.1 at 2018-01-31 13:52:21 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-31 14:35:20 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 150ms (Views: 140.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a822855dc89e4fe37bb28defabc164bb9befb4deb3c67d71fc1b2bfab356bb5a.css?body=1" for 127.0.0.1 at 2018-01-31 14:35:20 +0000
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-01-31 14:35:20 +0000
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-01-31 14:35:21 +0000
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for 127.0.0.1 at 2018-01-31 14:35:21 +0000
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 127.0.0.1 at 2018-01-31 14:35:21 +0000
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-01-31 14:35:21 +0000
+
+
+Started GET "/assets/application.self-8f81f789606958f881f9d343cb1ad6e7d7db2da3b53064b842cfdbb291dcc37d.js?body=1" for 127.0.0.1 at 2018-01-31 14:35:21 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-31 14:35:23 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 93ms (Views: 91.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for 127.0.0.1 at 2018-01-31 14:35:23 +0000
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 127.0.0.1 at 2018-01-31 14:35:23 +0000
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-01-31 14:35:23 +0000
+
+
+Started GET "/assets/application.self-8f81f789606958f881f9d343cb1ad6e7d7db2da3b53064b842cfdbb291dcc37d.js?body=1" for 127.0.0.1 at 2018-01-31 14:35:23 +0000
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-01-31 14:35:23 +0000
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-01-31 14:35:23 +0000
+
+
+Started GET "/assets/application.self-a822855dc89e4fe37bb28defabc164bb9befb4deb3c67d71fc1b2bfab356bb5a.css?body=1" for 127.0.0.1 at 2018-01-31 14:35:23 +0000
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2018-01-31 14:35:26 +0000
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 81ms (Views: 79.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2018-01-31 14:35:27 +0000
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 87ms (Views: 86.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2018-01-31 14:35:27 +0000
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 161ms (Views: 160.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2018-01-31 14:35:28 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 202ms (Views: 201.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2018-01-31 14:36:14 +0000
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 124ms (Views: 123.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2018-01-31 14:36:14 +0000
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 105ms (Views: 104.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2018-01-31 14:36:15 +0000
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 103ms (Views: 102.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2018-01-31 14:36:17 +0000
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 74ms (Views: 72.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2018-01-31 14:36:18 +0000
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 44ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2018-01-31 14:36:19 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 93ms (Views: 92.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2018-01-31 16:59:41 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 349ms (Views: 337.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a822855dc89e4fe37bb28defabc164bb9befb4deb3c67d71fc1b2bfab356bb5a.css?body=1" for 127.0.0.1 at 2018-01-31 16:59:41 +0000
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-01-31 16:59:41 +0000
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for 127.0.0.1 at 2018-01-31 16:59:41 +0000
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-01-31 16:59:41 +0000
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-01-31 16:59:42 +0000
+
+
+Started GET "/assets/application.self-8f81f789606958f881f9d343cb1ad6e7d7db2da3b53064b842cfdbb291dcc37d.js?body=1" for 127.0.0.1 at 2018-01-31 16:59:42 +0000
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 127.0.0.1 at 2018-01-31 16:59:42 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-31 17:11:58 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 147ms (Views: 145.2ms | ActiveRecord: 0.0ms)
