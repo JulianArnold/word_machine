@@ -1,3 +1,5 @@
+20180209: working examples at end of 'Modifying Built-in classes'
+
 20180129: done, next up is a return to CSS.
 
 20180127: hashes & symbols, exercises done; read up on ruby merge though!
