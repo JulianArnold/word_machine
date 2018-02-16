@@ -1,18 +1,17 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.10' # shows up under this app but 5.0.0 is still installed globally
-gem 'bootstrap-sass'
-gem 'rspec-rails'
-gem 'shoulda-matchers'
-gem 'shoulda-callback-matchers'
-gem 'slim'
-gem 'authlogic'
 gem 'aasm'
-gem 'stripe', '~> 1.44'  # installed properly once I retro-installed 4.2.6
+gem 'authlogic'
 gem 'bootstrap-datepicker-rails'
+gem 'bootstrap-sass'
 gem 'puma'
+gem 'rails', '4.2.10' # shows up under this app but 5.0.0 is still installed globally
+gem 'rspec-rails'
+gem 'shoulda-callback-matchers'
+gem 'shoulda-matchers'
+gem 'slim'
+gem 'stripe', '~> 1.44' # installed properly once I retro-installed 4.2.6
 
 # Use sqlite3 as the database for Active Record
 # Use SCSS for stylesheets
@@ -44,20 +43,20 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-  gem 'sqlite3'
-  gem 'byebug'
-  gem 'rubocop'
   gem 'annotate'
-  gem 'minitest-reporters'
+  gem 'byebug'
   gem 'guard'
   gem 'guard-minitest'
+  gem 'minitest-reporters'
+  gem 'rubocop'
+  gem 'sqlite3'
 end
 
 group :development do
-  gem 'web-console',           '3.1.1'
   gem 'listen',                '3.0.8'
   gem 'spring',                '1.7.2'
   gem 'spring-watcher-listen', '2.0.0'
+  gem 'web-console',           '3.1.1'
 end
 
 group :staging, :production do
@@ -65,7 +64,5 @@ group :staging, :production do
   gem 'rails_12factor'
 end
 
-
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
+gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
