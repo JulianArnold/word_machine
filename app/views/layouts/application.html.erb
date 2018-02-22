@@ -19,14 +19,24 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 </head>
   <body>
-    <br />
-    <div class="btn-group">
-      <%= link_to 'Home', static_pages_home_path, class: 'btn btn-primary' %>
-      <%= link_to 'Help', static_pages_help_path, class: 'btn btn-primary' %>
-      <%= link_to 'About', static_pages_about_path, class: 'btn btn-primary' %>
-      <%= link_to 'Contact', static_pages_contact_path, class: 'btn btn-primary' %>
+    <header class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <%= link_to 'Word Machine', static_pages_home_path, id: 'logo', class: 'navbar-brand' %>
+        <nav>
+          <ul class="nav navbar-nav navbar-right">
+            <li><%= link_to 'Home', static_pages_home_path %></li>
+            <li><%= link_to 'Help', static_pages_help_path %></li>
+            <li><%= link_to 'About', static_pages_about_path %></li>
+            <li><%= link_to 'Contact', static_pages_contact_path %></li>
+            <li><%= link_to 'Log in', static_pages_home_path %></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="drop-60">
+      <div class="container">
+        <%= yield %>
+      </div>
     </div>
-    <br />
-    <%= yield %>
   </body>
 </html>

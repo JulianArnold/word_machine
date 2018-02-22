@@ -1,1 +1,21 @@
+20180221: in Ch: 5, stopped here: Listing 5.2: The Home page with a link to the signup page.
+
+20180209: working examples at end of 'Modifying Built-in classes'
+
+20180129: done, next up is a return to CSS.
+
+20180127: hashes & symbols, exercises done; read up on ruby merge though!
+
+20180126: hashes & symbols, exercises 1 and 2 done.
+
 20171213: finished on "Assign s to the string resulting from joining a on nothing." in arrays and ranges.
+
+20170724: Exercises part of Ruby Class Constructors; hashes and arrays I get but initial values vs. default values trip
+me up a little.
+
+20170716: At the exercise part of hashes & symbols.
+
+20170715: "Hash values can be virtually anything, even other hashes, as seen in Listing 4.13." Review prior to doing
+the exercises.
+
+20170714: "7. For example, consider a hash named flash with keys for two conditions, :success and :danger:"
