@@ -1,4 +1,4 @@
-20180221: in Ch: 5, stopped here: Listing 5.2: The Home page with a link to the signup page.
+20180221: in Ch: 5, stopped here: Listing 5.2.. The Home page with a link to the signup page.
 
 20180209: working examples at end of 'Modifying Built-in classes'
 
