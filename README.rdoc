@@ -1,3 +1,5 @@
+20180312: stopped here: Efficiency in production in 5.2.1 The asset pipeline
+
 20180304: ch: 5 stopped at 5.1.2 Bootstrap and custom CSS
 
 20180221: in Ch: 5, stopped here: Listing 5.2.. The Home page with a link to the signup page.
