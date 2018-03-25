@@ -1,3 +1,8 @@
+20180317: learned to nest a second instance of an id: #logo and #logo:hover to #logo {.. &:hover {..}..}.  It's an
+.scss thing. LESS converts it back later on.
+
+20180314: stopped at 'nesting'
+
 20180312: stopped here: Efficiency in production in 5.2.1 The asset pipeline
 
 20180304: ch: 5 stopped at 5.1.2 Bootstrap and custom CSS

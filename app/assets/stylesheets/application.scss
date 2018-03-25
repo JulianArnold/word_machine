@@ -34,13 +34,15 @@ textarea {
   resize: vertical;
 }
 
+// Nesting Example Below
+
 .center {
   text-align: center;
- }
-
-.center h1 {
-  margin-bottom: 10px;
+  h1 {
+    margin-bottom: 10px;
+  }
 }
+
 
 // Typography
 
@@ -54,7 +56,7 @@ h1 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #777777;
+  color: $gray-light;
 }
 
 p {
@@ -73,40 +75,34 @@ p {
   letter-spacing: -1px;
   padding-top: 15px;
   font-weight: bold;
+  &:hover {
+    color: #1E90FF;
+    text-decoration: none;
+  }
 }
 
-#logo:hover {
-  color: #1E90FF;
-  text-decoration: none;
-}
-
-// Footer
+// Footer (SASS)
 
 footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #EAEAEA;
-  color: #777777;
-}
-
-footer a {
-  color: #555555;
-}
-
-footer a:hover {
-  color: #222222;
-}
-
-footer small {
-  float: left;
-}
-
-footer ul {
-  float: right;
-  list-style: none;
-}
-
-footer ul li {
-  float: left;
-  margin-left: 15px;
+  color: $gray-light;
+  a {
+    color: #555555;
+    &:hover {
+      color: #222222;
+    }
+  }
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
 }
