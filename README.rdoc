@@ -1,3 +1,11 @@
+20180330: resolved it!!  Had jumped ahead with using the help_path in _header and _footer which tripped the test.
+Now on the next item: setting up a test checking for such named routes globally.
+
+20180328: ditto.. unresolved exercise
+
+20180325: exercise here: "It’s possible to use a named route other than the default using the as: option. Drawing inspiration from this famous Far Side comic strip, change the route for the Help page to use helf (Listing 5.29)." didn't yield 'green'
+on the bundle exec rake test..(?)
+
 20180317: learned to nest a second instance of an id: #logo and #logo:hover to #logo {.. &:hover {..}..}.  It's an
 .scss thing. LESS converts it back later on.
 
