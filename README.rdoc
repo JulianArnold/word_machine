@@ -1,3 +1,9 @@
+20180401: fixed it (not an April fool's) by including both footer and header partials.  Completed the remaining
+exercise including the application test into test_helper, then created a new file testing for the actual titles.
+
+20180331: this exercise: "In the footer partial, change about_path to contact_path and verify that the tests catch
+the error." Doesn't catch the error..(?)
+
 20180330: resolved it!!  Had jumped ahead with using the help_path in _header and _footer which tripped the test.
 Now on the next item: setting up a test checking for such named routes globally.
 
