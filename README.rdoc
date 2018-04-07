@@ -1,3 +1,7 @@
+20180402: Would have been flummoxed re: assert_equal full_title test.  Found via google, it is the actual string you
+see in the title tab: 'Word Machine Blog'. Add ("Help") plus '|' to complete the picture.  Schedule a day to learn
+about testing: http://guides.rubyonrails.org/testing.html
+
 20180401: fixed it (not an April fool's) by including both footer and header partials.  Completed the remaining
 exercise including the application test into test_helper, then created a new file testing for the actual titles.
 

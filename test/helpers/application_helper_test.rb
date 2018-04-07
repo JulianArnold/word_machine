@@ -8,3 +8,6 @@ class ApplicationHelperTest < ActionView::TestCase
     assert_equal full_title('Contact'),   'Contact | Word Machine Blog'
   end
 end
+
+# assert_equal <expected>, <actual>
+# <expected> == <actual>
