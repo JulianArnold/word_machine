@@ -1,3 +1,5 @@
+20180407: setup routes and framework for new user sign_up.  links on home page to be done.
+
 20180402: Would have been flummoxed re: assert_equal full_title test.  Found via google, it is the actual string you
 see in the title tab: 'Word Machine Blog'. Add ("Help") plus '|' to complete the picture.  Schedule a day to learn
 about testing: http://guides.rubyonrails.org/testing.html
